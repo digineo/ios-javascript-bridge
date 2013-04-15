@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>JavaScript to Obj-C</title>
+    <script type="text/javascript" src="BridgedWebView.js"></script>
+    <script type="text/javascript" src="AppBridge.js"></script>
+</head>
+
+<body style="font-family:Helvetica;">
+    <center><h3>JS2OBJCViewController</h3>
+    <p><small>Opens Website.html with corresponding .JS-files.</small>
+    <hr>
+    <form><strong>App Calls</strong><BR>
+            Tap button to call Obj-C:<BR>
+            <input type=button value="Alert" onClick="App.alert('Willkommen!','Dies ist ein Alert in Obj-C aus der Webview.');">
+                <input type=button value="Date" onClick="App.datepicker('Datum wählen','2012-11-15','2013-05-12');">
+                    <input type=button value="ID Card" onClick="App.idcopyUploader();">
+                        <input type=button value="Testfail" onClick="App.testfail();"></form>
+        <hr>
+        <strong>Web called by Obj-C</strong><br>
+        DatePicker will place date here:<br>
+        <span style="color:darkblue;" id="date_field">n.a.</span>
+        <hr>
+        <form><strong>Call Obj-C</strong><BR>
+        Tap button to call Obj-C:<BR>
+        <input type=button value="Animate Button" onClick="testAnimateButton();">
+        <input type=button value="Change Color" onClick="testChangeColorButton();">
+        <input type=button value="Test Error" onClick="testFailingMethodButton();"></form></p></center>
+</body>
+</html>

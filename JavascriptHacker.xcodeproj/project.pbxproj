@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8DFB674171C5E3D0019144C /* JS2OBJCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DFB66E171C5E3D0019144C /* JS2OBJCViewController.xib */; };
+		E8DFB675171C5E3D0019144C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8DFB670171C5E3D0019144C /* InfoPlist.strings */; };
+		E8DFB676171C5E3D0019144C /* JS2OBJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DFB672171C5E3D0019144C /* JS2OBJCViewController.m */; };
+		E8DFB677171C5E3D0019144C /* JS2OBJCBridgeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DFB673171C5E3D0019144C /* JS2OBJCBridgeHandle.m */; };
+		E8F9CA561714046A00E7928B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9CA551714046A00E7928B /* UIKit.framework */; };
+		E8F9CA581714046A00E7928B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9CA571714046A00E7928B /* Foundation.framework */; };
+		E8F9CA5A1714046A00E7928B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9CA591714046A00E7928B /* CoreGraphics.framework */; };
+		E8F9CA621714046A00E7928B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9CA611714046A00E7928B /* main.m */; };
+		E8F9CA661714046A00E7928B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9CA651714046A00E7928B /* AppDelegate.m */; };
+		E8F9CA681714046A00E7928B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA671714046A00E7928B /* Default.png */; };
+		E8F9CA6A1714046A00E7928B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA691714046A00E7928B /* Default@2x.png */; };
+		E8F9CA6C1714046A00E7928B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA6B1714046A00E7928B /* Default-568h@2x.png */; };
+		E8F9CA7917140CDE00E7928B /* Website.html in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA7817140CDE00E7928B /* Website.html */; };
+		E8F9CA9717142FAD00E7928B /* DatePickingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9CA9517142FAD00E7928B /* DatePickingViewController.m */; };
+		E8F9CA9817142FAD00E7928B /* DatePickingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA9617142FAD00E7928B /* DatePickingViewController.xib */; };
+		E8F9CA9B1714555300E7928B /* BridgedWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA7C17141C1600E7928B /* BridgedWebView.js */; };
+		E8F9CA9E1714564A00E7928B /* AppBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = E8F9CA9C1714560100E7928B /* AppBridge.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8A383E2171C2A84000E420E /* JS2OBJCBridgeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JS2OBJCBridgeHandle.h; sourceTree = "<group>"; };
+		E8DFB66F171C5E3D0019144C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JS2OBJCViewController.xib; sourceTree = "<group>"; };
+		E8DFB671171C5E3D0019144C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8DFB672171C5E3D0019144C /* JS2OBJCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JS2OBJCViewController.m; sourceTree = "<group>"; };
+		E8DFB673171C5E3D0019144C /* JS2OBJCBridgeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JS2OBJCBridgeHandle.m; sourceTree = "<group>"; };
+		E8DFB678171C5E5B0019144C /* JS2OBJCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JS2OBJCViewController.h; sourceTree = "<group>"; };
+		E8F9CA521714046A00E7928B /* JavascriptHacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavascriptHacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F9CA551714046A00E7928B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8F9CA571714046A00E7928B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8F9CA591714046A00E7928B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8F9CA5D1714046A00E7928B /* JavascriptHacker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "JavascriptHacker-Info.plist"; path = "JavascriptHacker/JavascriptHacker-Info.plist"; sourceTree = "<group>"; };
+		E8F9CA611714046A00E7928B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JavascriptHacker/main.m; sourceTree = "<group>"; };
+		E8F9CA631714046A00E7928B /* JavascriptHacker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JavascriptHacker-Prefix.pch"; path = "JavascriptHacker/JavascriptHacker-Prefix.pch"; sourceTree = "<group>"; };
+		E8F9CA641714046A00E7928B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8F9CA651714046A00E7928B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8F9CA671714046A00E7928B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E8F9CA691714046A00E7928B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E8F9CA6B1714046A00E7928B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E8F9CA7817140CDE00E7928B /* Website.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Website.html; sourceTree = "<group>"; };
+		E8F9CA7C17141C1600E7928B /* BridgedWebView.js */ = {isa = PBXFileReference; explicitFileType = sourcecode.javascript; fileEncoding = 4; path = BridgedWebView.js; sourceTree = "<group>"; };
+		E8F9CA9417142FAD00E7928B /* DatePickingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickingViewController.h; sourceTree = "<group>"; };
+		E8F9CA9517142FAD00E7928B /* DatePickingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickingViewController.m; sourceTree = "<group>"; };
+		E8F9CA9617142FAD00E7928B /* DatePickingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickingViewController.xib; sourceTree = "<group>"; };
+		E8F9CA9C1714560100E7928B /* AppBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = AppBridge.js; path = ../AppBridge.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8F9CA4F1714046A00E7928B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F9CA561714046A00E7928B /* UIKit.framework in Frameworks */,
+				E8F9CA581714046A00E7928B /* Foundation.framework in Frameworks */,
+				E8F9CA5A1714046A00E7928B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8F9CA491714046A00E7928B = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA631714046A00E7928B /* JavascriptHacker-Prefix.pch */,
+				E8F9CA5D1714046A00E7928B /* JavascriptHacker-Info.plist */,
+				E8F9CA611714046A00E7928B /* main.m */,
+				E8F9CA5B1714046A00E7928B /* JavascriptHacker */,
+				E8F9CA541714046A00E7928B /* Frameworks */,
+				E8F9CA531714046A00E7928B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F9CA531714046A00E7928B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA521714046A00E7928B /* JavascriptHacker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F9CA541714046A00E7928B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA551714046A00E7928B /* UIKit.framework */,
+				E8F9CA571714046A00E7928B /* Foundation.framework */,
+				E8F9CA591714046A00E7928B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8F9CA5B1714046A00E7928B /* JavascriptHacker */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA641714046A00E7928B /* AppDelegate.h */,
+				E8F9CA651714046A00E7928B /* AppDelegate.m */,
+				E8F9CA9F17145A0E00E7928B /* Controller */,
+				E8F9CA7A17141C1600E7928B /* Javascripts */,
+				E8F9CA7817140CDE00E7928B /* Website.html */,
+				E8F9CA5C1714046A00E7928B /* Supporting Files */,
+			);
+			path = JavascriptHacker;
+			sourceTree = "<group>";
+		};
+		E8F9CA5C1714046A00E7928B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFB670171C5E3D0019144C /* InfoPlist.strings */,
+				E8F9CA671714046A00E7928B /* Default.png */,
+				E8F9CA691714046A00E7928B /* Default@2x.png */,
+				E8F9CA6B1714046A00E7928B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8F9CA7A17141C1600E7928B /* Javascripts */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA7C17141C1600E7928B /* BridgedWebView.js */,
+				E8F9CA9C1714560100E7928B /* AppBridge.js */,
+			);
+			name = Javascripts;
+			path = JS2ObjcBridge;
+			sourceTree = "<group>";
+		};
+		E8F9CA9917142FB300E7928B /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA9417142FAD00E7928B /* DatePickingViewController.h */,
+				E8F9CA9517142FAD00E7928B /* DatePickingViewController.m */,
+				E8F9CA9617142FAD00E7928B /* DatePickingViewController.xib */,
+			);
+			name = "Date Picker";
+			sourceTree = "<group>";
+		};
+		E8F9CA9F17145A0E00E7928B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9CA9917142FB300E7928B /* Date Picker */,
+				E8F9CAA017145A1B00E7928B /* Root Controller */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8F9CAA017145A1B00E7928B /* Root Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFB66E171C5E3D0019144C /* JS2OBJCViewController.xib */,
+				E8DFB678171C5E5B0019144C /* JS2OBJCViewController.h */,
+				E8DFB672171C5E3D0019144C /* JS2OBJCViewController.m */,
+				E8DFB673171C5E3D0019144C /* JS2OBJCBridgeHandle.m */,
+				E8A383E2171C2A84000E420E /* JS2OBJCBridgeHandle.h */,
+			);
+			name = "Root Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8F9CA511714046A00E7928B /* JavascriptHacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F9CA751714046A00E7928B /* Build configuration list for PBXNativeTarget "JavascriptHacker" */;
+			buildPhases = (
+				E8F9CA501714046A00E7928B /* Resources */,
+				E8F9CA4E1714046A00E7928B /* Sources */,
+				E8F9CA4F1714046A00E7928B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavascriptHacker;
+			productName = JavascriptHacker;
+			productReference = E8F9CA521714046A00E7928B /* JavascriptHacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8F9CA4A1714046A00E7928B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Digineo GmbH";
+			};
+			buildConfigurationList = E8F9CA4D1714046A00E7928B /* Build configuration list for PBXProject "JavascriptHacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8F9CA491714046A00E7928B;
+			productRefGroup = E8F9CA531714046A00E7928B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8F9CA511714046A00E7928B /* JavascriptHacker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8F9CA501714046A00E7928B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F9CA9E1714564A00E7928B /* AppBridge.js in Resources */,
+				E8F9CA9B1714555300E7928B /* BridgedWebView.js in Resources */,
+				E8F9CA681714046A00E7928B /* Default.png in Resources */,
+				E8F9CA6A1714046A00E7928B /* Default@2x.png in Resources */,
+				E8F9CA6C1714046A00E7928B /* Default-568h@2x.png in Resources */,
+				E8F9CA7917140CDE00E7928B /* Website.html in Resources */,
+				E8F9CA9817142FAD00E7928B /* DatePickingViewController.xib in Resources */,
+				E8DFB674171C5E3D0019144C /* JS2OBJCViewController.xib in Resources */,
+				E8DFB675171C5E3D0019144C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8F9CA4E1714046A00E7928B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F9CA621714046A00E7928B /* main.m in Sources */,
+				E8F9CA661714046A00E7928B /* AppDelegate.m in Sources */,
+				E8F9CA9717142FAD00E7928B /* DatePickingViewController.m in Sources */,
+				E8DFB676171C5E3D0019144C /* JS2OBJCViewController.m in Sources */,
+				E8DFB677171C5E3D0019144C /* JS2OBJCBridgeHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8DFB66E171C5E3D0019144C /* JS2OBJCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DFB66F171C5E3D0019144C /* en */,
+			);
+			name = JS2OBJCViewController.xib;
+			sourceTree = "<group>";
+		};
+		E8DFB670171C5E3D0019144C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DFB671171C5E3D0019144C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8F9CA731714046A00E7928B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8F9CA741714046A00E7928B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8F9CA761714046A00E7928B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JavascriptHacker/JavascriptHacker-Prefix.pch";
+				INFOPLIST_FILE = "JavascriptHacker/JavascriptHacker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8F9CA771714046A00E7928B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JavascriptHacker/JavascriptHacker-Prefix.pch";
+				INFOPLIST_FILE = "JavascriptHacker/JavascriptHacker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8F9CA4D1714046A00E7928B /* Build configuration list for PBXProject "JavascriptHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F9CA731714046A00E7928B /* Debug */,
+				E8F9CA741714046A00E7928B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F9CA751714046A00E7928B /* Build configuration list for PBXNativeTarget "JavascriptHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F9CA761714046A00E7928B /* Debug */,
+				E8F9CA771714046A00E7928B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8F9CA4A1714046A00E7928B /* Project object */;
+}
